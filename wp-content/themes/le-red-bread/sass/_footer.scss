@@ -1,0 +1,49 @@
+
+.fa {
+ 	display: inline-block;
+ 	font-style: normal;
+ 	font-weight: normal;
+ 	line-height: 1;
+}
+footer{
+	width: 100%;
+		background-color: #222222;
+		color: white;
+}
+.footer-block-item{
+	display: flex;
+	width: 1024px;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin: 0 auto;
+}
+.contact, .footer-logo, .business-hours{
+	width: 33.3%;
+}
+.footer-logo{
+	text-align: center;
+}
+.business-hours{
+	padding-left: 100px;
+}
+.footer-logo img{
+	width: 60%;
+	padding-top: 100px;
+}
+.site-info{
+	background: #333;
+    font-size: 12.8px;
+    padding: 1.5rem 0;
+    padding-top: 1.5rem;
+    padding-right: 0px;
+    padding-bottom: 1.5rem;
+    padding-left: 0px;
+}
+.container {
+	width: 1024px;
+	font-size: .8rem;
+	text-align: center;
+	color: white;
+	margin-left: auto;
+    margin-right: auto;
+}

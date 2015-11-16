@@ -1,0 +1,169 @@
+/*--------------------------------------------------------------
+# Page Templates
+--------------------------------------------------------------*/
+
+/* Front page */
+
+.hero {
+	background-image: url('../../images/hero-bread.jpg');
+	height: 550px;
+	width: 993px;
+	margin: 0 auto;
+	display: flex;
+}
+.hero-text {
+	color: #fff;
+    font-family: 'overlockregular';
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1;
+    margin: auto;
+    padding-top: 250px;
+	padding-bottom: 250px;
+    text-transform: uppercase;
+    text-shadow: 2px 1px 2px rgba(100,100,100,.75);
+}
+.type {
+//  	color: #400c0d;
+display: flex;
+width: 100%;
+//   margin-bottom: 3rem;
+ }
+
+.type li{
+	width: 25%;
+	list-style: none;
+}
+.h3{
+ 	font-size: 1.6rem;
+ 	font-family: 'overlockregular';
+ }
+ .post{
+	display: flex;
+	width: 100%;
+ margin: 0 auto;
+ background-color: #fafafa;
+ border: 1px solid #e1e1e1;
+ padding: 1.5rem;
+ margin-bottom: 3rem;
+ margin-left: auto;
+ margin-right: auto;
+}
+ .post li{
+	width: 25%;
+	list-style: none;
+	padding-top: 50px;
+  	padding-left: 5px;
+	padding-right: 5px;
+}
+​
+// #about page
+.motto{
+ 	text-align: center;
+ 	font-family: 'overlockregular';
+ 	margin-bottom: 3rem;
+}
+.special{
+ 	display: flex;
+ 	justify-content: space-between;
+}
+.left-side{
+ 	width: 48%;
+ 	text-align: center;
+}
+.left-side h3 {
+ 	font-family: 'overlockregular';
+ 	font-size: 1.6rem;
+ 	color: #400c0d;
+}
+.right-side{
+ 	width: 50%;
+ 	text-align: center;
+}
+.right-side h3 {
+ 	font-family: 'overlockregular';
+ 	font-size: 1.6rem;
+ 	color: #400c0d;
+}
+.our-story h2{
+ 	text-align: center;
+ 	font-family: 'overlockregular';
+}
+ 
+// *archive-Products page 
+
+.main-products{
+	display: flex;
+	flex-wrap: wrap;
+ flex-direction: row;
+	width: 100%;
+}
+.product-price{
+	width: 25%;
+	border: 1px solid #e1e1e1;
+}
+.title-money{
+	display: flex;
+  margin: 10px 5px;
+}
+.product-title{
+	width: 60%;
+}
+.product-money{
+	width: 40%;
+}
+.main-producttype{
+     text-align: center;
+		display: flex;
+		width: 60%;
+		margin: 0 auto;
+    text-decoration: none;
+}
+.individual-producttypes{
+	width: 25%;
+}
+.container-producttypes{
+	margin: 0 auto;
+	width: 100%;
+}
+// *taxonomy-product-type
+.single-product{
+	width: 100%;
+	display: flex;
+}
+.individual-products h3{
+	color: red;
+	margin-top: 0px;
+}
+.individual-products{
+	width: 70%;
+}
+.product-sidebar{
+	width: 30%;
+}
+.products-align{
+  display: flex;
+	width: 100%;
+	justify-content: space-between;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-bottom: 1px dashed #d2d2d2;
+	border-top: 1px dashed #d2d2d2;
+}
+.product-img{
+	width: 25%;
+}
+.product-description{
+	width: 65%;
+	margin-right: 30px;
+}
+.contact-page{
+	display: flex;
+	width: 100%;
+}
+.contact{
+	width: 70%;
+}
+.contact-side{
+	width: 30%;
+}
